@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047AF9771F8E897C00AFAA22 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047AF9761F8E897C00AFAA22 /* ApiKeys.plist */; };
+		04C654281F8E26FD00A35E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C654271F8E26FD00A35E16 /* AppDelegate.swift */; };
+		04C6542A1F8E26FD00A35E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C654291F8E26FD00A35E16 /* ViewController.swift */; };
+		04C6542D1F8E26FD00A35E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C6542B1F8E26FD00A35E16 /* Main.storyboard */; };
+		04C6542F1F8E26FD00A35E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C6542E1F8E26FD00A35E16 /* Assets.xcassets */; };
+		04C654321F8E26FD00A35E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C654301F8E26FD00A35E16 /* LaunchScreen.storyboard */; };
+		04C6543D1F8E26FD00A35E16 /* TransitAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6543C1F8E26FD00A35E16 /* TransitAlarmTests.swift */; };
+		04C654481F8E26FD00A35E16 /* TransitAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C654471F8E26FD00A35E16 /* TransitAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C654391F8E26FD00A35E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C6541C1F8E26FD00A35E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C654231F8E26FD00A35E16;
+			remoteInfo = TransitAlarm;
+		};
+		04C654441F8E26FD00A35E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C6541C1F8E26FD00A35E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C654231F8E26FD00A35E16;
+			remoteInfo = TransitAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047AF9761F8E897C00AFAA22 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		04C654241F8E26FD00A35E16 /* TransitAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C654271F8E26FD00A35E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C654291F8E26FD00A35E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C6542C1F8E26FD00A35E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C6542E1F8E26FD00A35E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C654311F8E26FD00A35E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C654331F8E26FD00A35E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C654381F8E26FD00A35E16 /* TransitAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C6543C1F8E26FD00A35E16 /* TransitAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAlarmTests.swift; sourceTree = "<group>"; };
+		04C6543E1F8E26FD00A35E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C654431F8E26FD00A35E16 /* TransitAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C654471F8E26FD00A35E16 /* TransitAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAlarmUITests.swift; sourceTree = "<group>"; };
+		04C654491F8E26FD00A35E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C654211F8E26FD00A35E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C654351F8E26FD00A35E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C654401F8E26FD00A35E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C6541B1F8E26FD00A35E16 = {
+			isa = PBXGroup;
+			children = (
+				04C654261F8E26FD00A35E16 /* TransitAlarm */,
+				04C6543B1F8E26FD00A35E16 /* TransitAlarmTests */,
+				04C654461F8E26FD00A35E16 /* TransitAlarmUITests */,
+				04C654251F8E26FD00A35E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C654251F8E26FD00A35E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C654241F8E26FD00A35E16 /* TransitAlarm.app */,
+				04C654381F8E26FD00A35E16 /* TransitAlarmTests.xctest */,
+				04C654431F8E26FD00A35E16 /* TransitAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C654261F8E26FD00A35E16 /* TransitAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				04C654271F8E26FD00A35E16 /* AppDelegate.swift */,
+				04C654291F8E26FD00A35E16 /* ViewController.swift */,
+				04C6542B1F8E26FD00A35E16 /* Main.storyboard */,
+				04C6542E1F8E26FD00A35E16 /* Assets.xcassets */,
+				04C654301F8E26FD00A35E16 /* LaunchScreen.storyboard */,
+				04C654331F8E26FD00A35E16 /* Info.plist */,
+				047AF9761F8E897C00AFAA22 /* ApiKeys.plist */,
+			);
+			path = TransitAlarm;
+			sourceTree = "<group>";
+		};
+		04C6543B1F8E26FD00A35E16 /* TransitAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C6543C1F8E26FD00A35E16 /* TransitAlarmTests.swift */,
+				04C6543E1F8E26FD00A35E16 /* Info.plist */,
+			);
+			path = TransitAlarmTests;
+			sourceTree = "<group>";
+		};
+		04C654461F8E26FD00A35E16 /* TransitAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C654471F8E26FD00A35E16 /* TransitAlarmUITests.swift */,
+				04C654491F8E26FD00A35E16 /* Info.plist */,
+			);
+			path = TransitAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C654231F8E26FD00A35E16 /* TransitAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C6544C1F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarm" */;
+			buildPhases = (
+				04C654201F8E26FD00A35E16 /* Sources */,
+				04C654211F8E26FD00A35E16 /* Frameworks */,
+				04C654221F8E26FD00A35E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitAlarm;
+			productName = TransitAlarm;
+			productReference = 04C654241F8E26FD00A35E16 /* TransitAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C654371F8E26FD00A35E16 /* TransitAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C6544F1F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarmTests" */;
+			buildPhases = (
+				04C654341F8E26FD00A35E16 /* Sources */,
+				04C654351F8E26FD00A35E16 /* Frameworks */,
+				04C654361F8E26FD00A35E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C6543A1F8E26FD00A35E16 /* PBXTargetDependency */,
+			);
+			name = TransitAlarmTests;
+			productName = TransitAlarmTests;
+			productReference = 04C654381F8E26FD00A35E16 /* TransitAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C654421F8E26FD00A35E16 /* TransitAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C654521F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarmUITests" */;
+			buildPhases = (
+				04C6543F1F8E26FD00A35E16 /* Sources */,
+				04C654401F8E26FD00A35E16 /* Frameworks */,
+				04C654411F8E26FD00A35E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C654451F8E26FD00A35E16 /* PBXTargetDependency */,
+			);
+			name = TransitAlarmUITests;
+			productName = TransitAlarmUITests;
+			productReference = 04C654431F8E26FD00A35E16 /* TransitAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C6541C1F8E26FD00A35E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alumina;
+				TargetAttributes = {
+					04C654231F8E26FD00A35E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5A2759SQ42;
+						ProvisioningStyle = Automatic;
+					};
+					04C654371F8E26FD00A35E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5A2759SQ42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04C654231F8E26FD00A35E16;
+					};
+					04C654421F8E26FD00A35E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5A2759SQ42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04C654231F8E26FD00A35E16;
+					};
+				};
+			};
+			buildConfigurationList = 04C6541F1F8E26FD00A35E16 /* Build configuration list for PBXProject "TransitAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C6541B1F8E26FD00A35E16;
+			productRefGroup = 04C654251F8E26FD00A35E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C654231F8E26FD00A35E16 /* TransitAlarm */,
+				04C654371F8E26FD00A35E16 /* TransitAlarmTests */,
+				04C654421F8E26FD00A35E16 /* TransitAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C654221F8E26FD00A35E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C654321F8E26FD00A35E16 /* LaunchScreen.storyboard in Resources */,
+				047AF9771F8E897C00AFAA22 /* ApiKeys.plist in Resources */,
+				04C6542F1F8E26FD00A35E16 /* Assets.xcassets in Resources */,
+				04C6542D1F8E26FD00A35E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C654361F8E26FD00A35E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C654411F8E26FD00A35E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C654201F8E26FD00A35E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C6542A1F8E26FD00A35E16 /* ViewController.swift in Sources */,
+				04C654281F8E26FD00A35E16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C654341F8E26FD00A35E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C6543D1F8E26FD00A35E16 /* TransitAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C6543F1F8E26FD00A35E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C654481F8E26FD00A35E16 /* TransitAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C6543A1F8E26FD00A35E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C654231F8E26FD00A35E16 /* TransitAlarm */;
+			targetProxy = 04C654391F8E26FD00A35E16 /* PBXContainerItemProxy */;
+		};
+		04C654451F8E26FD00A35E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C654231F8E26FD00A35E16 /* TransitAlarm */;
+			targetProxy = 04C654441F8E26FD00A35E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C6542B1F8E26FD00A35E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C6542C1F8E26FD00A35E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C654301F8E26FD00A35E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C654311F8E26FD00A35E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C6544A1F8E26FD00A35E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C6544B1F8E26FD00A35E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C6544D1F8E26FD00A35E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04C6544E1F8E26FD00A35E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04C654501F8E26FD00A35E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitAlarm.app/TransitAlarm";
+			};
+			name = Debug;
+		};
+		04C654511F8E26FD00A35E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitAlarm.app/TransitAlarm";
+			};
+			name = Release;
+		};
+		04C654531F8E26FD00A35E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TransitAlarm;
+			};
+			name = Debug;
+		};
+		04C654541F8E26FD00A35E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5A2759SQ42;
+				INFOPLIST_FILE = TransitAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TransitAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C6541F1F8E26FD00A35E16 /* Build configuration list for PBXProject "TransitAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C6544A1F8E26FD00A35E16 /* Debug */,
+				04C6544B1F8E26FD00A35E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C6544C1F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C6544D1F8E26FD00A35E16 /* Debug */,
+				04C6544E1F8E26FD00A35E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C6544F1F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C654501F8E26FD00A35E16 /* Debug */,
+				04C654511F8E26FD00A35E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C654521F8E26FD00A35E16 /* Build configuration list for PBXNativeTarget "TransitAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C654531F8E26FD00A35E16 /* Debug */,
+				04C654541F8E26FD00A35E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C6541C1F8E26FD00A35E16 /* Project object */;
+}
