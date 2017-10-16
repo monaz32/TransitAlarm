@@ -88,11 +88,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITextFieldDe
             locationManager_.startUpdatingLocation()
             DispatchQueue.main.async {
                 self.showCurrBtn.isEnabled = true
+                self.goBtn.isEnabled = (self.destinationLocation_ != nil)
             }
             
             showCurrent_ = true
         }
-        else {
+        else if (CLLocationManager.authorizationStatus() != .notDetermined) {
             showAlert(title: "No GPS Data", message: "Please enable location service for this app in the Settings.")
             DispatchQueue.main.async {
                 self.showCurrBtn.isEnabled = false
@@ -306,7 +307,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITextFieldDe
                         self.destinationCtrlBtn.isEnabled = true
                     }
                     
-                    if (self.goBtn.isEnabled == false) {
+                    if (self.goBtn.isEnabled == false && CLLocationManager.authorizationStatus() == .authorizedAlways) {
                         self.goBtn.isEnabled = true
                     }
                 }
